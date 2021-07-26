@@ -140,6 +140,10 @@ section span {
         grid-area: 3/1/4/4;
     }
 
+    #clifford {
+        background-position: 95% 0%;
+    }
+
 }
 
 @media (max-width:759px) {
