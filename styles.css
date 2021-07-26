@@ -112,3 +112,61 @@ section span {
     font-size: 20px;
     line-height: 24px;  
 }
+
+@media (max-width:1200px) {
+
+    body{
+        height: unset;
+        padding: 30px;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 87vw;
+        height: auto;
+    }
+
+    section span {
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+        
+    #whittle {
+        grid-area: 3/1/4/4;
+    }
+
+}
+
+@media (max-width:759px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 87vw;
+    }
+
+    section span {
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+
+    #clifford {
+        grid-area: unset;
+    }
+    
+    #walters {
+        grid-area: unset;
+    }
+        
+    #whittle {
+        grid-area: unset;
+    }
+    
+    #harmon {
+        grid-area: unset;
+    }
+    
+    #abrams {
+        grid-area: unset;  
+    }
+}
