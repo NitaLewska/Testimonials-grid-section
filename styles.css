@@ -37,6 +37,9 @@ main {
     grid-area: 1/1/2/3;
     background-color: var(--violet);
     color: var(--white);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 82% 0%;
 }
 
 #walters {
